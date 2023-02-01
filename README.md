@@ -28,9 +28,6 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 Thanks to [MERI](https://meri-mg-portfolio.netlify.app) and her source of inspiration [EAGATOR](https://www.patreon.com/egator)
 
-
-Give a ⭐️ if you like this project!
-
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
