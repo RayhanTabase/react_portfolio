@@ -9,7 +9,7 @@ import SocialMedia from './SocialMedia';
 
 const Introduction =() => {
   return (
-    <section className='container-intro'>
+    <section className='container-intro' id='introduction'>
       <SocialMedia />
       <div className='container-intro-sections'>
         <Greeting />
@@ -17,6 +17,7 @@ const Introduction =() => {
         <Position />
         <ActionBtn />
       </div>
+      <a className='scroll-down color-main' href="#contact-me">Scroll down</a>
     </section>
   );
 }

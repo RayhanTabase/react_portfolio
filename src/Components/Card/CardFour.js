@@ -1,16 +1,16 @@
 import React from 'react';
-import './card.css'
+import './css/card.css'
 
-const CardFour = ({icon, title, text}) => {
+const CardFour = ({icon, linkedInLink, title, text}) => {
   return (
     <div className='card-four card'>
-      <div className='image'>
-        <img className='' src={icon} alt={`${title}`} />
-      </div>
-      <h3 className='title'>
+      <a href={linkedInLink} className='container-icon'>
+        <img className='icon' src={icon} alt={`${title}`} />
+      </a>
+      <h3 className='title color-main-2'>
         {title}
       </h3>
-      <p className='text'>
+      <p className='text color-tertiary'>
         {text}
       </p>
     </div>

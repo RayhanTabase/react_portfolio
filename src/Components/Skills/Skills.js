@@ -30,7 +30,7 @@ const Skills =() => {
         "Django",
         "Ruby on Rails",
         "PostgreSQL",
-        "RSPEC",
+        "RSpec",
         "Swagger",
       ]
     },
@@ -47,7 +47,7 @@ const Skills =() => {
     },
 
     {
-      category: "Methodologies and Interpersonal",
+      category: "Other Skills and Tools",
       skills: [
         "Agile",
         "Product Ownership",
@@ -62,7 +62,7 @@ const Skills =() => {
   ]
 
   return (
-    <section className='skills'>
+    <section className='skills' id='skills'>
       <Heading desc1="The Skills I Have" title="Skills" />
       <div className='container-cards-skills'>
       {

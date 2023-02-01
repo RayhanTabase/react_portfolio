@@ -1,28 +1,30 @@
 import React from 'react';
 import './css/about.css';
-import './css/about_mobile.css';
 import Description from './Description';
 import Image from './Image';
 import Heading from '../Heading/Heading';
 import CardOne from '../Card/CardOne';
-import GithubIcon from '../../Assets/github.svg';
+import { MdWork } from 'react-icons/md';
+import { AiOutlineFundProjectionScreen } from 'react-icons/ai';
+
+
 
 const About =() => {
   const EXPERIENCE = {
-    thumbnail: GithubIcon,
+    thumbnail: <MdWork />,
     title: 'Experience',
     text: '2.5 years'
   };
 
   const PROJECTS = {
-    thumbnail: GithubIcon,
+    thumbnail: <AiOutlineFundProjectionScreen />,
     title: 'Projects',
     text: '30+ Completed Projects'
   };
 
   return (
-    <section className='about-me'>
-      <Heading desc1="Get to Know" title="About Me" />
+    <section id='about-me'>
+      <Heading desc1="Get to know" title="About Me" />
       <div className='content-about'>
         <Image />
         <div className="content-about-profile">
